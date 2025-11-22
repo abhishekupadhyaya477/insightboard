@@ -1,0 +1,53 @@
+# Dependencies
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Testing
+coverage
+.nyc_output
+
+# Next.js
+.next
+out
+build
+dist
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Documentation
+README.md
+DEPLOYMENT_GUIDE.md
+YOUTUBE_API_SETUP.md
+API_INTEGRATION_GUIDE.md
+IMPLEMENTATION_SUMMARY.md
+QUICK_START.md
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+.DS_Store
+
+# CI/CD
+.github
+.gitlab-ci.yml
+.travis.yml
+
+# Misc
+Thumbs.db
+.DS_Store
+*.pem
+*.key
