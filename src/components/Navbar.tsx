@@ -29,13 +29,6 @@ export default function Navbar() {
               Analyzer
             </Link>
 
-            <Link
-              href="/dashboard"
-              className="text-slate-300 hover:text-white transition"
-            >
-              Dashboard
-            </Link>
-
             <div className="flex items-center gap-4">
               {user ? (
                 <>
